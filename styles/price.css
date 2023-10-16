@@ -1,0 +1,91 @@
+.main-content-price {
+    padding: 100px;
+}
+
+.main-price {
+    background-image: url("../images/bg-price.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area {
+    padding: 60px 0 135px 0;
+}
+
+.area-title {
+    font-size: 42px;
+    margin-bottom: 90px;
+}
+
+.area .container {
+    flex-direction: column
+}
+
+.area-variants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    flex-wrap: wrap;
+}
+
+.area-variant {
+    margin: 15px;
+    width: 230px;
+    height: 150px;
+    background-image: url("../images/price-one.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    background-blend-mode: multiply;
+    background-color: rgba(18,18,18,0.6);
+}
+
+.area-variant svg {
+    margin-top: 5px;
+}
+
+.price-two {
+    background-image: url("../images/price-two.jpg");
+}
+
+.price-three {
+    background-image: url("../images/price-three.jpg");
+}
+
+.price-four {
+    background-image: url("../images/price-four.jpg");
+}
+
+.price-five {
+    background-image: url("../images/price-five.jpg");
+}
+
+.price-six {
+    background-image: url("../images/price-six.jpg");
+}
+
+.price-seven {
+    background-image: url("../images/price-seven.jpg");
+}
+
+.price-eight {
+    background-image: url("../images/price-eight.jpg");
+}
+
+.area-variant-block a {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.area-variant-text {
+    max-width: 120px;
+    margin-right: 50px;
+}
