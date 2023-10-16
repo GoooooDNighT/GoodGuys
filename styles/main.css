@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(23, 23, 23, 0.4);
+    padding: 20px 0;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.logo img{
+    max-height: 80px;
+}
+
+.menu {
+    /*margin: 0 200px;*/
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item:first-child {
+    margin: 0 15px 0 0;
+}
+
+.menu-item {
+    margin: 0 15px;
+}
+
+.menu-item a {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid white;
+}
+
+.phone {
+    font-family: "OpenSans-Medium", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.header-contact svg path{
+    fill: white;
+}
+
+ /*фон видео*/
+/*.video-background {*/
+/*    position: fixed;*/
+/*    top: 0; right: 0; bottom: 0; left: 0;*/
+/*    z-index: -99;*/
+/*}*/
+/*.video-foreground,*/
+/*.video-background iframe {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    pointer-events: none;*/
+/*}*/
+
+.main-content {
+    padding: 200px;
+    text-align: center;
+}
+
+.main-info .main-small-info {
+    font-size: 38px;
+    color: white;
+    max-width: 920px;
+    /*overflow: hidden;*/
+}
+
+.main-title {
+    font-family: 'OpenSans-Medium', sans-serif;
+    color: white;
+    font-size: 70px;
+    margin: 50px 0;
+}
+
+.main-text {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 60px;
+    overflow: hidden;
+    text-align: justify;
+    line-height: 1.55;
+}
+
+.main-action .button {
+    color: white;
+    border: 1px solid #bd9840;
+    height: 60px;
+    padding: 0 60px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/*area-of-expertise*/
+
+.area-of-expertise .container {
+    flex-wrap: wrap
+}
+
+.area-of-expertise {
+    padding: 75px 0 200px 0;
+}
+
+.area-of-expertise-img {
+    margin-bottom: 100px;
+}
+
+.area-of-expertise-title {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 70px;
+}
+
+.area-of-expertise-text {
+    font-size: 18px;
+    line-height: 1.55;
+    font-family: 'OpenSans-Light', sans-serif;
+    max-width: 960px;
+}
+
+.area-of-expertise-text span {
+    font-weight: 400;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+.area-of-expertise-info {
+    padding-bottom: 120px;
+}
+
+.area-of-expertise-faq-block {
+    border-bottom: 1px solid rgba(183, 183, 183, 0.9);
+    margin-bottom: 20px;
+    padding: 0 0 30px 0;
+}
+
+.area-of-expertise-faq-block:first-child {
+    border-top: 1px solid rgba(183, 183, 183, 0.9);
+    padding-top: 30px;
+}
+
+.area-of-expertise-faq {
+    max-width: 760px;
+}
+
+.area-of-expertise-faq-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.faq-btn-text {
+    font-size: 24px;
+    font-family: 'OpenSans-Medium', sans-serif;
+}
+
+.faq-list-text {
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: left;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+
+.faq-list-text:last-child {
+    margin: 0 0;
+}
+
+.area-of-expertise-faq-list-name {
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+
+.faq-lists {
+    /*list-style: none;*/
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.faq-list {
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+
+/* progress */
+
+.progress {
+    background-image: url("../images/progress.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.progress-bg {
+    background-blend-mode: multiply;
+    background-color: rgba(18,18,18,0.90);
+}
+
+.progress .container {
+    padding: 200px;
+    align-items: normal;
+    justify-content: space-between;
+}
+
+.progress-info {
+    max-width: 360px;
+}
+
+.progress-number {
+    font-size: 72px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.progress-text {
+    font-size: 18px;
+    font-family: 'OpenSans-Light', sans-serif;
+    color: white;
+}
+
+/* achievements */
+
+.achievements {
+    padding: 150px 0;
+}
+
+.achievements .container {
+    flex-direction: column;
+}
+
+.achievements-title {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.achievements-text {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    max-width: 560px;
+}
+
+.achievements-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap
+}
+
+.achievement-block {
+    max-width: 360px;
+    margin-top: 90px;
+}
+
+.achievement-block-img img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.achievement-block-title {
+    font-size: 24px;
+    font-family: 'OpenSans-Medium', sans-serif;
+    margin-bottom: 25px;
+}
+
+.achievement-block-text {
+    font-size: 16px;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+
+.achievements-comment {
+    margin-top: 90px;
+}
+
+.comment {
+    background-color: #f5f5f5;
+    font-family: 'OpenSans-Light', sans-serif;
+    text-align: left;
+    padding: 60px;
+    font-size: 20px;
+    line-height: 1.55;
+    max-width: 760px;
+}
+
+/* questionnaire */
+
+.questionnaire {
+    padding: 60px 0 200px 0;
+}
+
+.questionnaire-title {
+    font-size: 30px;
+    margin-bottom: 24px;
+    font-family: 'OpenSans-Medium', sans-serif;
+}
+
+.questionnaire-text {
+    font-size: 24px;
+    font-family: "OpenSans-Light", sans-serif;
+    margin-bottom: 70px;
+}
+
+.registration {
+    margin-bottom: 35px;
+}
+
+
+
+.registration .reg-text input {
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #000000;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    width: 560px;
+    font-family: "OpenSans-Light", sans-serif;
+    padding: 10px 0;
+    outline: none;
+    text-align: left;
+}
+
+.btn button{
+    height: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0 none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #bd9840;
+    -webkit-border-radius: 0;
+}
+
+/* footer */
+
+.footer .container {
+    max-width: 100%;
+    display: flex;
+    justify-content: normal;
+    text-align: left;
+    background-color: #303030;
+    color: white;
+    /*align-items: normal;*/
+}
+
+.footer-info {
+    padding: 70px;
+}
+
+.name-company {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.location {
+    font-size: 26px;
+    font-family: 'OpenSans-Light', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer .phone {
+    font-size: 26px;
+    font-family: 'OpenSans-Light', sans-serif;
+    margin-bottom: 5px;
+}
+
+.email {
+    font-size: 26px;
+    font-family: 'OpenSans-Light', sans-serif;
+    margin-bottom: 40px;
+}
+
+.time-work {
+    font-size: 18px;
+    font-family: 'OpenSans-Light', sans-serif;
+}
