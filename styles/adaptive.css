@@ -79,6 +79,15 @@
         line-height: 1.55;
     }
 
+    /* price */
+    table {
+        width: 100%;
+    }
+
+    .sp {
+        max-width: none;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
