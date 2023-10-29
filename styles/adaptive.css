@@ -84,6 +84,30 @@
         width: 100%;
     }
 
+    .price-title {
+        font-size: 18px;
+    }
+
+    .price-box-title {
+        font-size: 60px;
+    }
+
+    .price-info {
+        font-size: 18px;
+    }
+
+    th {
+        padding: 20px;
+    }
+
+    td {
+        padding: 20px;
+    }
+
+    .spp {
+        width: 70%;
+    }
+
     .sp {
         max-width: none;
         width: 100%;
@@ -162,7 +186,7 @@
         padding: 40px;
     }
 
-    
+
 
     .map iframe{
         width: 400px;
@@ -232,6 +256,11 @@
         line-height: 1.45;
     }
 
+    /*price*/
+
+    .price-box-title {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 640px) {
