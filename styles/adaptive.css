@@ -261,6 +261,14 @@
     .price-box-title {
         font-size: 30px;
     }
+
+    th {
+        padding: 10px;
+    }
+
+    td {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
