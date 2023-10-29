@@ -265,6 +265,7 @@ body {
 
 .progress-info {
     max-width: 360px;
+    padding: 20px;
 }
 
 .progress-number {

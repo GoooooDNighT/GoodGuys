@@ -1,0 +1,97 @@
+/* 1401 - 1246 */
+@media screen and (max-width: 1401px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .progress-info {
+        max-width: 360px;
+        padding: 20px;
+    }
+
+    .map iframe{
+        width: 700px;
+    }
+
+    .footer .container {
+        padding-left: 0;
+    }
+}
+
+/* 1246 - 1084 */
+@media screen and (max-width: 1246px) {
+    .map iframe{
+        width: 600px;
+    }
+
+    .progress-number {
+        font-size: 68px;
+    }
+
+    .progress-text {
+        font-size: 16px;
+    }
+
+    .name-company {
+        font-size: 22px;
+    }
+
+    .location {
+        font-size: 22px;
+    }
+
+    .footer .phone {
+        font-size: 22px;
+    }
+
+    .email {
+        font-size: 22px;
+    }
+
+    .time-work {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1246px) {
+    .progress .container {
+         align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+/* 1084 - 1180 */
+@media screen and (max-width: 1084px) {
+    .map iframe{
+        width: 500px;
+    }
+}
+
+/* 1084 - 1180 */
+@media screen and (max-width: 984px) {
+    .footer-info {
+        padding: 40px;
+    }
+
+    .map iframe{
+        width: 400px;
+    }
+}
+
+/* 1084 - 1180 */
+@media screen and (max-width: 830px) {
+    .footer .container {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .footer-info {
+        padding: 40px 20px;
+    }
+
+    .map iframe{
+        width: 100vw;
+    }
+}
