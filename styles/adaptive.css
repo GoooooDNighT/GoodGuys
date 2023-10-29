@@ -52,13 +52,44 @@
     .time-work {
         font-size: 16px;
     }
-}
 
-@media screen and (max-width: 1246px) {
     .progress .container {
-         align-items: center;
+        align-items: center;
         justify-content: space-between;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header .container {
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header .logo {
+        margin-bottom: 50px;
+    }
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        margin: 0 0 15px 0;
+    }
+
+    .menu-item:first-child {
+        margin: 0 0 15px 0;
+    }
+
+    .header .phone {
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+    .header-contact {
+        margin-bottom: 30px;
     }
 }
 
@@ -66,6 +97,10 @@
 @media screen and (max-width: 1084px) {
     .map iframe{
         width: 500px;
+    }
+
+    .questionnaire-info {
+        max-width: 660px;
     }
 }
 
@@ -93,5 +128,40 @@
 
     .map iframe{
         width: 100vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .questionnaire-form .btn button{
+        width: 100%;
+    }
+
+    .registration .reg-text input {
+        width: 100%;
+    }
+
+    .questionnaire-info {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .questionnaire-info {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .questionnaire-info {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .questionnaire-info {
+        max-width: 320px;
     }
 }
