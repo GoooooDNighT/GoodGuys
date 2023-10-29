@@ -25,6 +25,22 @@
         width: 600px;
     }
 
+    .achievements-title {
+        font-size: 38px;
+    }
+
+    .achievements-text {
+        font-size: 22px;
+    }
+
+    .achievement-block-title {
+        font-size: 22px;
+    }
+
+    .achievement-block-text {
+        font-size: 14px;
+    }
+
     .progress-number {
         font-size: 68px;
     }
@@ -54,10 +70,15 @@
     }
 
     .progress .container {
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
+        padding: 100px;
     }
+
+    .comment {
+        padding: 40px;
+        font-size: 18px;
+        line-height: 1.55;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -91,12 +112,30 @@
     .header-contact {
         margin-bottom: 30px;
     }
+
+    .progress .container {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 }
 
 /* 1084 - 1180 */
 @media screen and (max-width: 1084px) {
     .map iframe{
         width: 500px;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 60px;
+    }
+
+    .main-info {
+        max-width: 660px;
     }
 
     .questionnaire-info {
@@ -106,6 +145,10 @@
 
 /* 1084 - 1180 */
 @media screen and (max-width: 984px) {
+    .faq-btn-text {
+        max-width: 500px;
+    }
+
     .footer-info {
         padding: 40px;
     }
@@ -131,7 +174,61 @@
     }
 }
 
+@media screen and (max-width: 675px) {
+    .main-info {
+        max-width: 550px;
+    }
+
+    .main-info .main-small-info {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .main-title {
+        font-size: 45px;
+    }
+
+    .main-text {
+        font-size: 14px;
+    }
+
+
+    .faq-btn-text {
+        margin-right: 20px;
+        font-size: 22px;
+        max-width: 400px;
+    }
+
+    .faq-list-text {
+        font-size: 14px;
+    }
+
+    .achievements-title {
+        font-size: 30px;
+    }
+
+    .achievements-text {
+        font-size: 20px;
+    }
+
+    .achievement-block-title {
+        font-size: 20px;
+    }
+
+    .comment {
+        padding: 20px;
+        font-size: 16px;
+        line-height: 1.45;
+    }
+
+}
+
 @media screen and (max-width: 640px) {
+    .area-of-expertise-text {
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
     .questionnaire-form .btn button{
         width: 100%;
     }
@@ -143,25 +240,63 @@
     .questionnaire-info {
         max-width: 550px;
     }
+
+    .progress-number {
+        font-size: 40px;
+    }
+
+    .progress-text {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    .main-action .button {
+        padding: 0;
+        width: 100%;
+    }
+
+    .main-info {
+        max-width: 450px;
+    }
 
     .questionnaire-info {
         max-width: 450px;
+    }
+
+    .faq-btn-text {
+        max-width: 350px;
     }
 }
 
 @media screen and (max-width: 500px) {
 
+    .main-title {
+        font-size: 35px;
+    }
+
+    .main-info {
+        max-width: 400px;
+    }
+
     .questionnaire-info {
         max-width: 400px;
     }
+
+
 }
 
 @media screen and (max-width: 450px) {
+    .main-info {
+        max-width: 320px;
+    }
 
     .questionnaire-info {
         max-width: 320px;
     }
+
+    .faq-btn-text {
+        max-width: 300px;
+    }
+
 }
