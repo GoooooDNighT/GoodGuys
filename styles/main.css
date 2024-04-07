@@ -406,19 +406,25 @@ body {
 
 /* footer */
 
-.footer .container {
-    max-width: 100%;
-    display: flex;
-    justify-content: normal;
-    text-align: left;
+.footer {
     background-color: #303030;
+}
+
+.footer .container{
+    padding: 20px 0;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*max-width: 100%;*/
+    display: flex;
+    text-align: left;
     color: white;
     /*align-items: normal;*/
 }
 
-.footer-info {
-    padding: 70px;
-}
+/*.footer-info {*/
+/*    padding: 70px;*/
+/*}*/
 
 .name-company {
     margin-bottom: 20px;

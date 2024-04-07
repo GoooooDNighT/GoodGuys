@@ -297,6 +297,21 @@ td {
     color: #000000;
 }
 
+.price-block-dop {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.price-block-dop:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.price-block-dop-title {
+    font-family: 'OpenSans-Medium', sans-serif;
+    font-size: 30px;
+}
+
 .sp {
     width: 1200px;
 }
