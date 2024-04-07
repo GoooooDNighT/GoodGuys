@@ -33,7 +33,7 @@
     margin: 15px;
     width: 230px;
     height: 150px;
-    background-image: url("../images/price-one.jpg");
+    /*background-image: url("../images/price-one.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,37 +43,37 @@
     background-color: rgba(18,18,18,0.6);
 }
 
-.area-variant svg {
-    margin-top: 5px;
-}
+/*.area-variant svg {*/
+/*    margin-top: 5px;*/
+/*}*/
 
-.price-two {
-    background-image: url("../images/price-two.jpg");
-}
+/*.price-two {*/
+/*    background-image: url("../images/price-two.jpg");*/
+/*}*/
 
-.price-three {
-    background-image: url("../images/price-three.jpg");
-}
+/*.price-three {*/
+/*    background-image: url("../images/price-three.jpg");*/
+/*}*/
 
-.price-four {
-    background-image: url("../images/price-four.jpg");
-}
+/*.price-four {*/
+/*    background-image: url("../images/price-four.jpg");*/
+/*}*/
 
-.price-five {
-    background-image: url("../images/price-five.jpg");
-}
+/*.price-five {*/
+/*    background-image: url("../images/price-five.jpg");*/
+/*}*/
 
-.price-six {
-    background-image: url("../images/price-six.jpg");
-}
+/*.price-six {*/
+/*    background-image: url("../images/price-six.jpg");*/
+/*}*/
 
-.price-seven {
-    background-image: url("../images/price-seven.jpg");
-}
+/*.price-seven {*/
+/*    background-image: url("../images/price-seven.jpg");*/
+/*}*/
 
-.price-eight {
-    background-image: url("../images/price-eight.jpg");
-}
+/*.price-eight {*/
+/*    background-image: url("../images/price-eight.jpg");*/
+/*}*/
 
 .area-variant-block a {
     font-size: 18px;
@@ -81,20 +81,21 @@
     text-decoration: none;
     cursor: pointer;
     display: flex;
-    text-align: left;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .area-variant-text {
-    max-width: 120px;
-    margin-right: 50px;
+    /*max-width: 120px;*/
+    /*margin-right: 50px;*/
+    text-align: center;
 }
 
 .price-complex-info .container{
     max-width: 100%;
     display: flex;
-    justify-content: normal;
-    text-align: left;
+    /*justify-content: normal;*/
+    text-align: center;
     background-color: #f0f0f0;;
     color: black;
 }
@@ -115,13 +116,21 @@
     margin-bottom: 10px;
 }
 
-.complex-info-title-two {
+.complex-info-dop-info {
     font-size: 20px;
     line-height: 1.45;
     font-family: 'OpenSans-Regular',sans-serif;
-    color: #000000;
+    color: #3b3b3b;
     margin-bottom: 10px;
 }
+
+/*.complex-info-title-two {*/
+/*    font-size: 20px;*/
+/*    line-height: 1.45;*/
+/*    font-family: 'OpenSans-Regular',sans-serif;*/
+/*    color: #000000;*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
 .complex-lists {
     /*list-style: none;*/
