@@ -254,10 +254,6 @@ td {
     font-family: 'OpenSans-Light', sans-serif;
 }
 
-.building-info:first-child {
-    margin-bottom: 50px;
-}
-
 .building-info-title {
     font-size: 30px;
     line-height: 1.45;
@@ -267,6 +263,14 @@ td {
 }
 
 .building-info-title-two {
+    font-size: 18px;
+    line-height: 1.45;
+    font-family: 'OpenSans-Light',sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.building-info-title-more {
     font-size: 20px;
     line-height: 1.45;
     font-family: 'OpenSans-Regular',sans-serif;
@@ -282,14 +286,14 @@ td {
 .price-box-more-info {
     font-family: 'OpenSans-Regular',sans-serif;
     font-size: 16px;
-    padding-bottom: 40px;
+    padding-top: 40px;
     color: #000000;
 }
 
 .price-box-title {
     font-family: 'OpenSans-Regular',sans-serif;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 41px;
     color: #000000;
 }
 
