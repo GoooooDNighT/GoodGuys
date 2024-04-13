@@ -415,3 +415,15 @@ body {
     font-size: 18px;
     font-family: 'OpenSans-Light', sans-serif;
 }
+
+/* test */
+
+.faq-info {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.faq.active .faq-info {
+    max-height: 300px;
+}
