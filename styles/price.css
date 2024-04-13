@@ -33,7 +33,7 @@
     margin: 15px;
     width: 230px;
     height: 150px;
-    /*background-image: url("../images/price-one.jpg");*/
+    background-image: url("../images/price-one.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,33 +47,33 @@
 /*    margin-top: 5px;*/
 /*}*/
 
-/*.price-two {*/
-/*    background-image: url("../images/price-two.jpg");*/
-/*}*/
+.price-two {
+    background-image: url("../images/price-two.jpg");
+}
 
-/*.price-three {*/
-/*    background-image: url("../images/price-three.jpg");*/
-/*}*/
+.price-three {
+    background-image: url("../images/price-three.jpg");
+}
 
-/*.price-four {*/
-/*    background-image: url("../images/price-four.jpg");*/
-/*}*/
+.price-four {
+    background-image: url("../images/price-four.jpg");
+}
 
-/*.price-five {*/
-/*    background-image: url("../images/price-five.jpg");*/
-/*}*/
+.price-five {
+    background-image: url("../images/price-five.jpg");
+}
 
-/*.price-six {*/
-/*    background-image: url("../images/price-six.jpg");*/
-/*}*/
+.price-six {
+    background-image: url("../images/price-six.jpg");
+}
 
-/*.price-seven {*/
-/*    background-image: url("../images/price-seven.jpg");*/
-/*}*/
+.price-seven {
+    background-image: url("../images/price-seven.jpg");
+}
 
-/*.price-eight {*/
-/*    background-image: url("../images/price-eight.jpg");*/
-/*}*/
+.price-eight {
+    background-image: url("../images/price-eight.jpg");
+}
 
 .area-variant-block a {
     font-size: 18px;
