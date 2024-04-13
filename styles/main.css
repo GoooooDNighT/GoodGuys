@@ -124,7 +124,7 @@ body {
 .main-title {
     font-family: 'OpenSans-Medium', sans-serif;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     margin: 50px 0;
 }
 
@@ -155,7 +155,7 @@ body {
 }
 
 .area-of-expertise {
-    padding: 75px 0 200px 0;
+    padding: 75px 0 50px 0;
 }
 
 .area-of-expertise-img {
@@ -239,48 +239,10 @@ body {
 }
 
 .faq-list {
-    margin: 5px 0;
+    margin: 5px 200px 5px 0;
     font-size: 16px;
     text-align: left;
     font-family: 'OpenSans-Light', sans-serif;
-}
-
-/* progress */
-
-.progress {
-    background-image: url("../images/progress.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-}
-
-.progress-bg {
-    background-blend-mode: multiply;
-    background-color: rgba(18,18,18,0.90);
-}
-
-.progress .container {
-    padding: 200px;
-    align-items: normal;
-    justify-content: space-between;
-}
-
-.progress-info {
-    max-width: 360px;
-    padding: 20px;
-}
-
-.progress-number {
-    font-size: 72px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.progress-text {
-    font-size: 18px;
-    font-family: 'OpenSans-Light', sans-serif;
-    color: white;
 }
 
 /* achievements */
@@ -315,7 +277,7 @@ body {
 
 .achievement-block {
     max-width: 360px;
-    margin-top: 90px;
+    margin: 50px;
 }
 
 .achievement-block-img img{
