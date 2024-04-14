@@ -4,6 +4,8 @@
 
 .main-price {
     background-image: url("../images/bg-price.jpg");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +74,7 @@
 }
 
 .price-eight {
-    background-image: url("../images/price-eight.jpg");
+    background-image: url("../images/price-eight.jpeg");
 }
 
 .area-variant-block a {

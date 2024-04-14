@@ -33,8 +33,9 @@ body {
 }
 
 .main {
-    /*background-image: url("../images/main-test.jpg");*/
-    background-color: black;
+    background-image: url("../images/main.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -92,22 +93,6 @@ body {
 .header-contact svg path{
     fill: white;
 }
-
- /*фон видео*/
-/*.video-background {*/
-/*    position: fixed;*/
-/*    top: 0; right: 0; bottom: 0; left: 0;*/
-/*    z-index: -99;*/
-/*}*/
-/*.video-foreground,*/
-/*.video-background iframe {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    pointer-events: none;*/
-/*}*/
 
 .main-content {
     padding: 200px;
