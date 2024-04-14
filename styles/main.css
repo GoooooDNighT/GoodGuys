@@ -201,10 +201,6 @@ body {
     padding-top: 30px;
 }
 
-.area-of-expertise-faq {
-    max-width: 760px;
-}
-
 .area-of-expertise-faq-btn {
     display: flex;
     justify-content: space-between;
@@ -241,11 +237,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .faq-list {
-    margin: 5px 200px 5px 0;
+    margin: 5px 400px 5px 0;
     font-size: 16px;
     text-align: left;
     font-family: 'OpenSans-Light', sans-serif;
@@ -419,7 +415,7 @@ body {
 }
 
 .faq.active .faq-info {
-    max-height: 300px;
+    max-height: 800px;
 }
 
 .modal {
