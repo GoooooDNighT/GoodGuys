@@ -8,40 +8,14 @@ faqs.forEach(faq => {
 
 // scroll
 
-// const anchors = document.getElementsByClassName("scr");
-//
-// for (let anchor of anchors) {
-//     anchor.addEventListener("click", function (e) {
-//         e.preventDefault();
-//         const blockID = anchor.getAttribute('href')
-//         document.querySelectorAll('' + blockID).scrollIntoView({
-//             behavior: "smooth",
-//             block: "start"
-//         })
-//     })
-// }
+document.getElementById("main-action-button").onclick = function () {
+    document.getElementById("questionnaire").scrollIntoView({behavior: "smooth"})
+} //плавный скролл
 
-// modal
-
-let modal = document.getElementById("myModal");
-let btn = document.getElementById("openModal");
-// let modal = document.querySelectorAll(".myModal");
-// let btn = document.querySelectorAll(".openModal");
-let span = document.getElementsByClassName("close")[0];
-
-// Когда пользователь кликает на кнопку, открывается окно
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// Когда пользователь кликает на (x), закрываем окно
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// Когда пользователь кликает вне окна, это тоже его закрывает
-window.onclick = function(event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
+let links = document.querySelectorAll(".menu-item > a");
+for (let i = 0; i < links.length; i++) {
+    links[i].onclick = function () {
+        document.getElementById(links[i].getAttribute("data-link")).scrollIntoView({behavior: "smooth"})
     }
 }
+
