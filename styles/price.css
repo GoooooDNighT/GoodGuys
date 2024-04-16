@@ -3,8 +3,9 @@
 }
 
 .main-price {
-    background-image: url("../images/bg-price.jpg");
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-image: url("../images/bg-price.jpg");*/
+    background-color: black;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;

@@ -116,7 +116,7 @@ body {
 }
 
 .main-content {
-    padding: 200px;
+    padding: 260px;
     text-align: center;
 }
 
@@ -390,19 +390,19 @@ body {
 }
 
 .footer .phone {
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'OpenSans-Light', sans-serif;
     margin-bottom: 5px;
 }
 
 .email {
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'OpenSans-Light', sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .time-work {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'OpenSans-Light', sans-serif;
 }
 
