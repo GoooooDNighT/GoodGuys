@@ -1,18 +1,18 @@
 .main-content-price {
-    padding: 100px;
+    padding: 120px 0 120px 0;
 }
 
 .main-price {
-    /*background-image: url("../images/bg-price.jpg");*/
-    background-color: black;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-image: url("../images/main.jpg");
+    /*background-color: black;*/
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .area {
-    padding: 60px 0 135px 0;
+    padding: 70px 0 135px 0;
 }
 
 .area-title {
@@ -364,16 +364,29 @@ td {
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% от верха и по центру */
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #888;
     width: 80%; /* Ширина содержимого */
+    position: relative;
+}
+
+.modal-content h2 {
+    padding-bottom: 20px;
+}
+
+.modal-content table {
+    width: 100%;
 }
 
 .close {
+    position: absolute;
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
+    top: 5px;
+    right: 20px;
+    transition: all .4s cubic-bezier(0.4, 0, 1, 1);
 }
 
 .close:hover,
@@ -381,4 +394,5 @@ td {
     color: black;
     text-decoration: none;
     cursor: pointer;
+    transition: all .4s cubic-bezier(0.4, 0, 1, 1);
 }
