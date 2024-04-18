@@ -44,11 +44,14 @@
     padding: 20px;
     background-blend-mode: multiply;
     background-color: rgba(18,18,18,0.6);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all .7s ease;
 }
 
-/*.area-variant svg {*/
-/*    margin-top: 5px;*/
-/*}*/
+.area-variant:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
 
 .price-two {
     background-image: url("../images/price-two.jpg");
