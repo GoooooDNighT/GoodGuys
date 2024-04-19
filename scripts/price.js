@@ -2,7 +2,7 @@
 
 let modal = document.getElementsByClassName("myModal");
 let buttons = document.getElementsByClassName("openModal");
-let close = document.getElementsByClassName("close");
+let closePrice = document.getElementsByClassName("close")
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function () {
@@ -10,15 +10,11 @@ for (let i = 0; i < buttons.length; i++) {
     }
 }
 
-for (let i = 0; i < close.length; i++) {
-    close[i].onclick = function () {
+for (let i = 0; i < closePrice.length; i++) {
+    closePrice[i].onclick = function () {
         modal[i].style.display = "none";
     }
-}
-
-// // Когда пользователь кликает вне окна, это тоже его закрывает
-for (let i = 0; i < close.length; i++) {
-    window.onclick = function() {
-        modal.style.display = "none";
+    modal[i].onclick = function() {
+        modal[i].style.display = "none";
     }
 }

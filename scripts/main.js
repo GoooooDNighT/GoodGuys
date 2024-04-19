@@ -19,3 +19,13 @@ for (let i = 0; i < links.length; i++) {
     }
 }
 
+// burger
+
+document.getElementById('burger').onclick = function () {
+    document.getElementById('header-menu').classList.add('open');
+}
+document.querySelectorAll('#header-menu > *').forEach((item) => {
+    item.onclick = () => {
+        document.getElementById('header-menu').classList.remove('open');
+    }
+})
