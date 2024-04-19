@@ -16,19 +16,52 @@
             <div class="logo">
                 <a href="#"><img src="images/logo.png" alt="logo"></a>
             </div>
-            <nav class="menu">
+            <div id="burger" class="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px"
+                     height="2px">
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                          d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px"
+                     height="2px">
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                          d="M0.000,0.000 L40.000,0.000 L40.000,2.000 L0.000,2.000 L0.000,0.000 Z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px"
+                     height="2px">
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                          d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"></path>
+                </svg>
+            </div>
+            <div class="burger-close">
+                <svg  xmlns="http://www.w3.org/2000/svg"
+                     x="0px" y="0px"
+                     viewBox="0 0 512.001 512.001"
+                     xml:space="preserve">
+<g>
+	<g>
+		<path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+			L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+			c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+			l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+			L284.286,256.002z"/>
+	</g>
+</g>
+</svg>
+            </div>
+            <nav class="menu" id="header-menu">
                 <ul class="menu-list">
                     <li class="menu-item">
-                        <a href="#area-of-expertise" class="src">Услуги</a>
+                        <a href="#area-of-expertise" class="src" data-scroll="#area-of-expertise">Услуги</a>
                     </li>
                     <li class="menu-item">
-                        <a href="price.html">Цены</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#footer">Контакты</a>
+                        <a href="price.html" data-scroll="#area-of-expertise">Цены</a>
                     </li>
                     <li class="menu-item">
                         <a href="#questionnaire">Оставить заявку</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#footer" data-scroll="#area-of-expertise">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -427,18 +460,11 @@
         <div class="logo">
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
-        <!--        <div class="map">-->
-        <!--            <script type="text/javascript" charset="utf-8" async-->
-        <!--                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6632290d79343574761658408ced0a8e2a17d7febce75c7773aed01c98915a84&amp;width=920&amp;height=510&amp;lang=ru_RU&amp;scroll=true"></script>-->
-        <!--        </div>-->
         <div class="footer-info">
-            <!--            <div class="name-company">-->
-            <!--                РЭО-->
-            <!--            </div>-->
-            <div class="location">
-                <span>Россия,</span>
-                г. Москва
-            </div>
+<!--            <div class="location">-->
+<!--                <span>Россия,</span>-->
+<!--                г. Москва-->
+<!--            </div>-->
             <div class="phone">
                 Телефон: +7 (916) 874-84-26
             </div>

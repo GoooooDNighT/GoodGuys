@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale-1.0">
@@ -16,19 +16,52 @@
             <div class="logo">
                 <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             </div>
-            <nav class="menu">
+            <div id="burger" class="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px"
+                     height="2px">
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                          d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px"
+                     height="2px">
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                          d="M0.000,0.000 L40.000,0.000 L40.000,2.000 L0.000,2.000 L0.000,0.000 Z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px"
+                     height="2px">
+                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                          d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"></path>
+                </svg>
+            </div>
+            <div class="burger-close">
+                <svg  xmlns="http://www.w3.org/2000/svg"
+                      x="0px" y="0px"
+                      viewBox="0 0 512.001 512.001"
+                      xml:space="preserve">
+<g>
+	<g>
+		<path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+			L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+			c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+			l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+			L284.286,256.002z"/>
+	</g>
+</g>
+</svg>
+            </div>
+            <nav class="menu" id="header-menu">
                 <ul class="menu-list">
                     <li class="menu-item">
-                        <a href="#area" class="src">Услуги</a>
+                        <a href="#area" class="src" data-scroll="#area-of-expertise">Услуги</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Цены</a>
+                        <a href="#price-complex-info" data-scroll="#area-of-expertise">Цены</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#footer" class="src">Контакты</a>
+                        <a href="#questionnaire">Оставить заявку</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#questionnaire" class="src">Оставить заявку</a>
+                        <a href="#footer" data-scroll="#area-of-expertise">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -109,10 +142,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Система вентиляции и кондиционирования
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -126,10 +155,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Система энергоснабжения
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -143,10 +168,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Система теплоснабжения и отопления
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -160,10 +181,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Обслуживания и ремонт холодильного оборудования
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -177,16 +194,79 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Тепловые пункты: ИТП/ЦТП/УУТЭ
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <p>Тепловые пункты: ИТП/ЦТП/УУТЭ</p>
+                    <div class="complex-info">
+                        <div class="area-info-title">
+                            Тепловые пункты: ИТП/ЦТП/УУТЭ
+                        </div>
+                        <div class="area-info-dop">
+                            <b>Техническое обслуживание теплового пункта</b> – это критически важный аспект поддержания эффективной работы системы теплоснабжения. Регулярное и качественное обслуживание тепловых пунктов не только гарантирует надежность и бесперебойность теплоснабжения, но и способствует эффективному управлению энергоресурсами и снижению негативного воздействия на окружающую среду.
+                        </div>
+                        <div class="area-info-dop">
+                            <b>Основные аспекты технического обслуживания тепловых пунктов включают в себя:</b>
+                        </div>
+                        <div>
+                            <ul class="area-lists">
+                                <li class="area-list">
+                                    <b>Плановое техническое обслуживание.</b> Регулярные проверки и техническое обслуживание оборудования в тепловом пункте, такого как котлы, насосы, регулирующие клапаны и приборы учета тепла, проводятся в соответствии с четко определенным планом. Это позволяет выявить и устранить потенциальные проблемы до их превращения в критические ситуации.
+                                </li>
+                                <li class="area-list">
+                                    <b>Мониторинг и диагностика.</b> системы мониторинга и диагностики позволяют оперативно выявлять неисправности и аномалии в работе тепловых пунктов. Это важно для предотвращения аварий и минимизации простоев.
+                                </li>
+                                <li class="area-list">
+                                    <b> Обновление оборудования.</b> В некоторых случаях, старое оборудование может быть заменено более эффективными и экологически устойчивыми аналогами, что способствует снижению потребления энергии и экономии средств.
+                                </li>
+                                <li class="area-list">
+                                    <b>Энергетическая эффективность.</b> Повышение энергетической эффективности теплового пункта является ключевым аспектом современного обслуживания. Использование технологий, таких как тепловые насосы и солнечные панели, может уменьшить зависимость от ископаемого топлива и снизить выбросы углекислого газа.
+                                </li>
+                                <li class="area-list">
+                                    <b>Безопасность.</b> тепловых пунктов также включает в себя обеспечение безопасности операций и соответствие нормативным требованиям, чтобы предотвращать несчастные случаи и аварии.
+                                </li>
+                            </ul>
+                            <div class="area-info-dop">
+                                Обслуживание индивидуальных тепловых пунктов
+                            </div>
+                            <div class="area-info-dop">
+                                <b>Обслуживание индивидуального теплового пункта</b> играет важную роль в обеспечении надежности и эффективности отопительных систем в производственных и коммерческих зданиях. Этот процесс обеспечивает комфортное теплоснабжение в помещении для работников, а также снижает вероятность аварийных ситуаций и роста энергозатрат. В контексте растущего интереса к энергоэффективности и устойчивости, обслуживание ИТП особенно актуально, так как способствует оптимизации энергопотребления и снижению негативного воздействия на окружающую среду. Этот процесс также позволяет долгосрочно экономить ресурсы и средства, что особенно важно в современных условиях.
+                            </div>
+                            <div class="area-info-dop">
+                                <b>Перечень работ для ИТП включает:</b>
+                            </div>
+                            <ul class="area-lists">
+                                <li class="area-list">
+                                    <b>Проверка и обслуживание котла.</b> Включает в себя проверку работоспособности котла, его чистку, замену фильтров, проверку системы подачи топлива (газа, мазута и т. д.), а также контроль за правильной работой системы зажигания и безопасностью.
+                                </li>
+                                <li class="area-list">
+                                    <b>Обслуживание насосов.</b> Проверка и обслуживание насосов, включая проверку состояния механических уплотнений, контроль за надежностью соединений и регулирование их работы в соответствии с потребностями системы.
+                                </li>
+                                <li class="area-list">
+                                    <b>Проверка и обслуживание расширительного бака.</b> При необходимости обслуживание расширительного бака, включая проверку давления и состояния мембраны.
+                                </li>
+                                <li class="area-list">
+                                    <b>Обслуживание системы регулирования температуры.</b> Проверка и калибровка приборов для измерения и регулирования температуры, а также настройка системы управления для обеспечения комфортного теплоснабжения.
+                                </li>
+                                <li class="area-list">
+                                    <b>Обслуживание системы учета тепловой энергии.</b> Проверка и обслуживание узлов учета тепловой энергии (УУТЭ), снятие показаний и передача их в теплоснабжающую компанию для учета.
+                                </li>
+                                <li class="area-list">
+                                    <b>Проверка аварийных систем.</b> Обслуживание и проверка аварийных клапанов, датчиков утечки газа или других аварийных систем, чтобы гарантировать безопасность.
+                                </li>
+                                <li class="area-list">
+                                    <b>Устранение мелких неисправностей.</b> Оперативное реагирование на мелкие поломки и неисправности, а также замена оборудования на время ремонта, если оно временно вышло из строя.
+                                </li>
+                                <li class="area-list">
+                                    <b>Комплекс мер по подготовке к отопительному сезону.</b> Аналогично центральным ТП, проводятся мероприятия по подготовке ИТП к отопительному сезону, включая запуск и проверку работы оборудования.
+                                </li>
+                                <li class="area-list">
+                                    <b>Аварийное устранение неисправностей.</b> В случае аварийных ситуаций, требующих срочного вмешательства, проводятся мероприятия по ликвидации неисправностей.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="area-variant-block openModal">
@@ -194,10 +274,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Система водоснабжения, водостока и канализации
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -211,10 +287,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Слаботочные системы
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -228,10 +300,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     <div class="area-variant-text">
                         Клининг
                     </div>
-                    <!--                    <svg role="presentation" class="t959__card-arrow " width="12" height="22" viewBox="0 0 14 24"-->
-                    <!--                         fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                        <path d="M1 0.994385L12 11.9944L1 22.9944" stroke="white" stroke-width="2"></path>-->
-                    <!--                    </svg>-->
                 </a>
             </div>
             <div class="modal myModal">
@@ -244,7 +312,7 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
     </div>
 </section>
 
-<section class="price-complex-info">
+<section class="price-complex-info" id="price-complex-info">
     <div class="container">
         <div class="complex-information">
             <div class="complex-info">
@@ -406,7 +474,7 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                                 выключателей, проводки);
                             </li>
                             <li class="building-list">
-                                Подготовка сетей к сезонным изменениям (кондиционирования и отопление);
+                                Подготовка сетей к сезонным изменениям (кондиционирования и отопления);
                             </li>
                             <li class="building-list">
                                 Обслуживание систем вентиляции, кондиционирования, электроэнергии, водоснабжения;
@@ -421,7 +489,7 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                                 Минимизация риска аварийных ситуаций;
                             </li>
                             <li class="building-list">
-                                Аварийно-диспетчерское сопровождение;
+                                Аварийно-диспетчерское сопровождение.
                             </li>
                         </ul>
                     </div>
@@ -488,7 +556,7 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
                     </div>
                     <div class="building-info-title-two">
                         Аварийно-диспетчерское обслуживание АДС – это специализированная служба, осуществляющая
-                        деятельность по устранению аварийных ситуаций и осуществляющая контроль за инженерными системами
+                        деятельность по устранению аварийных ситуаций и контроль над инженерными системами
                         здания.
                     </div>
                     <div>
@@ -2585,13 +2653,6 @@ iVBORw0KGgoAAAANSUhEUgAAA9oAAAOKCAYAAABkmSiwAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
         <div class="footer-info">
-            <!--            <div class="name-company">-->
-            <!--                РЭО-->
-            <!--            </div>-->
-            <!--            <div class="location">-->
-            <!--                <span>Россия,</span>-->
-            <!--                г. Москва-->
-            <!--            </div>-->
             <div class="phone">
                 Телефон: +7 (916) 874-84-26
             </div>
