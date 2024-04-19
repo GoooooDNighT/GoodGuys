@@ -1,15 +1,18 @@
+/* main-price */
+
 .main-content-price {
     padding: 120px 0 120px 0;
 }
 
 .main-price {
     background-image: url("../images/main.jpg");
-    /*background-color: black;*/
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* area */
 
 .area {
     padding: 70px 0 135px 0;
@@ -92,10 +95,11 @@
 }
 
 .area-variant-text {
-    /*max-width: 120px;*/
-    /*margin-right: 50px;*/
     text-align: center;
 }
+
+
+/* complex */
 
 .price-complex-info .container{
     max-width: 100%;
@@ -129,14 +133,6 @@
     color: #3b3b3b;
     margin-bottom: 10px;
 }
-
-/*.complex-info-title-two {*/
-/*    font-size: 20px;*/
-/*    line-height: 1.45;*/
-/*    font-family: 'OpenSans-Regular',sans-serif;*/
-/*    color: #000000;*/
-/*    margin-bottom: 10px;*/
-/*}*/
 
 .complex-lists {
     /*list-style: none;*/
@@ -399,3 +395,38 @@ td {
     cursor: pointer;
     transition: all .4s cubic-bezier(0.4, 0, 1, 1);
 }
+
+/* area-modal */
+
+.area-info-title {
+    font-size: 30px;
+    line-height: 1.45;
+    font-family: 'OpenSans-Regular',sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.area-info-dop {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.45;
+    font-family: 'OpenSans-Regular',sans-serif;
+    color: #3b3b3b;
+    margin-bottom: 10px;
+}
+
+.area-lists {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.area-list {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+

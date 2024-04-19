@@ -120,6 +120,19 @@
     .box-mw .sp {
         width: initial !important;
     }
+
+    .price-block-dop {
+        flex-direction: column;
+    }
+
+    .price-block-dop-title {
+        margin-bottom: 35px;
+    }
+
+    .price-block-dop-btn button{
+        width: 60%;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -129,14 +142,21 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .header .container {
-        justify-content: space-between;
-        flex-direction: column;
-        text-align: center;
+    .menu {
+        display: none;
     }
 
-    .header .logo {
-        margin-bottom: 50px;
+    .phone {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header .container {
+        justify-content: space-between;
+        text-align: center;
     }
 
     .menu-list {
@@ -260,6 +280,10 @@
         font-size: 16px;
         max-width: 400px;
     }
+
+    .faq-list {
+        margin: 5px 300px 5px 0;
+    }
 }
 
 @media screen and (max-width: 675px) {
@@ -335,6 +359,14 @@
     td {
         padding: 6px;
         font-size: 14px;
+    }
+
+    .price-block-dop-btn button{
+        width: 100%;
+    }
+
+    .faq-list {
+        margin: 5px 200px 5px 0;
     }
 }
 

@@ -90,9 +90,30 @@ body {
     transition: all .7s ease;
 }
 
+.burger {
+    display: none;
+}
+
+.burger-close {
+    display: none;
+}
+
+.burger svg {
+    display: block;
+    margin-top: 6px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item:first-child {
+    margin: 0 15px 0 0;
+}
+
 .menu-item {
     margin: 0 15px;
-    transition: all .4s cubic-bezier(0.4, 0, 1, 1);
 }
 
 .menu-item a {
@@ -101,10 +122,27 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
+    position: relative;
 }
 
-.menu-item a:hover {
-    border-bottom: 2px solid white;
+.menu-item a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.menu-item a::after{
+    width: 0;
+}
+
+.menu-item a:hover:after {
+    width: 100%;
+    transition: 0.8s ease-out;
 }
 
 .phone {
@@ -190,6 +228,10 @@ body {
 
 .area-of-expertise-info {
     padding-bottom: 120px;
+}
+
+.area-of-expertise-faq {
+    width: 100%;
 }
 
 .area-of-expertise-faq-block {
