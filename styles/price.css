@@ -415,6 +415,15 @@ td {
     margin-bottom: 10px;
 }
 
+.area-info-min-title-dop {
+    text-align: center;
+    margin: 50px 0 15px 0;
+    font-size: 24px;
+    line-height: 1.45;
+    font-family: 'OpenSans-Regular',sans-serif;
+    color: #3b3b3b;
+}
+
 .area-lists {
     display: flex;
     flex-wrap: wrap;
