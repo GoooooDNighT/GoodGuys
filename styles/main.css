@@ -164,7 +164,6 @@ body {
     font-size: 38px;
     color: white;
     max-width: 920px;
-    /*overflow: hidden;*/
 }
 
 .main-title {
@@ -460,4 +459,78 @@ body {
 
 .faq.active .faq-info {
     max-height: 800px;
+}
+
+
+/* burger */
+.open {
+    display: flex !important;
+    justify-content: center;
+}
+
+.burger {
+    /*display: none;*/
+    /*position: relative;*/
+    /*z-index: 50;*/
+    /*align-items: center;*/
+    /*justify-content: flex-end;*/
+    width: 30px;
+    height: 18px;
+    fill: #FFFFFF;
+}
+
+.burger.active {
+    position: fixed; /* Фиксированное позиционирование */
+    z-index: 1; /* Находится над другими элементами */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включение прокрутки, если нужно */
+    background-color: rgb(0,0,0); /* Цвет фона */
+    background-color: rgba(0,0,0,0.4); /* Черный с прозрачностью */
+}
+
+.menu-close {
+    position: fixed;
+    z-index: 0;
+    display: none;
+    width: 30px;
+    height: 18px;
+    fill: #FFFFFF;
+}
+
+
+/*.burger span {*/
+/*    height: 2px;*/
+/*    width: 80%;*/
+/*    transform: scale(1);*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+
+/*.burger::before, .burger::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    height: 2px;*/
+/*    width: 100%;*/
+/*    background-color: #FFFFFF;*/
+/*    transition: all 0.3s ease 0s;*/
+/*}*/
+
+/*.burger::before {top: 0}*/
+
+/*.burger::after {bottom: 0}*/
+
+/*.burger.active span {*/
+/*    transform: scale(0);*/
+/*}*/
+
+/*.burger.active::before {*/
+/*    top: 50%;*/
+/*    transform: rotate(45deg) translate(0, 50%);*/
+/*}*/
+
+@keyframes burgerAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
 }

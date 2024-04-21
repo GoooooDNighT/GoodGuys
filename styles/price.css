@@ -345,7 +345,7 @@ td {
     font-family: 'OpenSans-Light', sans-serif;
 }
 
-/* test */
+/* modal */
 
 .modal {
     display: none; /* Скрыто по умолчанию */
@@ -397,7 +397,6 @@ td {
 }
 
 /* area-modal */
-
 .area-info-title {
     font-size: 30px;
     line-height: 1.45;
