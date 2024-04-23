@@ -1,5 +1,10 @@
 /* 1401 - 1246 */
 @media screen and (max-width: 1401px) {
+    #main-content .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .container {
         padding-left: 20px;
         padding-right: 20px;
@@ -151,6 +156,10 @@
     }
 
     .burger {
+        display: flex;
+    }
+
+    .burgerPrice {
         display: flex;
     }
 
