@@ -214,6 +214,7 @@ body {
 }
 
 .area-of-expertise-text {
+    padding-bottom: 20px;
     font-size: 18px;
     line-height: 1.55;
     font-family: 'OpenSans-Light', sans-serif;
@@ -492,6 +493,8 @@ body {
 }
 
 .menu-close {
+    top: 50px;
+    right: 30px;
     position: fixed;
     z-index: 0;
     display: none;
