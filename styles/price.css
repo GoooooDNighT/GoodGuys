@@ -28,6 +28,7 @@
 }
 
 .area-variants {
+    z-index: 30;
     display: flex;
     justify-content: center;
     align-items: center;

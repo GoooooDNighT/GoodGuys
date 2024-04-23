@@ -66,6 +66,7 @@ body {
     padding: 20px 0;
     position: fixed;
     width: 100%;
+    z-index: 900;
 }
 
 .header .container {
